@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linkdin clone</title>
+    <link rel="stylesheet" href="linkdin.css">
+</head>
+<body>
+    <!-- navbar -->
+  <nav class="navbar">
+    <div class="navbar-left">
+        <a href="linkdin.html" class="logo"><img src="logo.png"></a>
+    <div class="search-box">
+        <img src="search.png">
+        <input type="text" placeholder="Search">
+    </div>
+    </div>
+    <div class="navbar-center">
+        <ul>
+            <li><a href="#" class="active-link"><img src="home.png"><span>Home</span></a></li>
+            <li><a href="#"><img src="network.png"><span>My Network</span></a></li>   
+            <li><a href="#"><img src="jobs.png"><span>Jobs</span></a></li>
+            <li><a href="#"><img src="message.png"><span>Messaging</span></a></li>
+            <li><a href="#"><img src="notification.png"><span>Notifications</span></a></li>
+        </ul>
+
+    </div>
+    <div class="navbar-right">
+        <div class="online">
+           <img src="baby.jpg" class="nav-profile-img" onclick="togglemenu()">
+        </div>
+    </div> 
+        <!-- profile-dropdown-menu -->
+        <div class="profile-menu-wrap" id="profilemenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="baby.jpg">
+                    <div>
+                        <h3>Prangya Paramita Sahoo</h3>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="feedback.png">
+                    <p>Give feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="setting.png">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+  </nav>  
+<!-- content -->
+<div class="container">
+    <div class="left-side">
+        <div class="sidebar-profile-box">
+            <img src="pran.jpg" width="100%">
+            <div class="sidebar-profile-info">
+                <img src="baby.jpg">
+                <h1>Prangya Paramita Sahoo</h1>
+                <h3>BCA'25@NCAC</h3>
+                <p>N.C. Autonumous College,Jajpur</p>
+                <ul>
+                    <li> Profile Viewers <span>157</span></li>
+                    <li> Post impressions<span>277</span></li>
+                    <li>Connections <span>357</span></li>
+                
+                </ul>
+            </div>
+            <div class="sidebar-profile-link">
+                <a href="#"><img src="items.png">My Items</a>
+                <a href="#"><img src="premium.png">Try Premium</a>
+            </div>
+        </div>
+        <div class="sidebar-activity">
+            <h3>RECENT</h3>
+            <a href="#"><img src="recent.png">Web Development</a>
+            <a href="#"><img src="recent.png">User Interface</a>
+            <a href="#"><img src="recent.png">Learn Online</a>
+            <a href="#"><img src="recent.png">Online Learning</a>
+            <a href="#"><img src="recent.png">Code Better</a>
+            <a href="#"><img src="recent.png">Group Learning</a>
+            <h3>GROUPS</h3>
+            <a href="#"><img src="group.png">Web Design Group</a>
+            <a href="#"><img src="group.png">HTML & CSS Learners</a>
+            <a href="#"><img src="group.png">Python & Javascript Group</a>
+            <a href="#"><img src="group.png">Learn Coding Online</a>
+            <h3>HASHTAG</h3>
+            <a href="#"><img src="hashtag.png">webdevelopment</a>
+            <a href="#"><img src="hashtag.png">userinterface</a>
+            <a href="#"><img src="hashtag.png">onlinelearning</a>
+            <div class="discover-more">
+                <a href="#">Discover More</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="create-post">
+            <div class="create-post-input">
+                <img src="baby.jpg">
+                <textarea rows="2" placeholder="Start a Post"></textarea>
+                <div class="create-post-links">
+                    <li><img src="photo.png">Photo</li>
+                    <li><img src="video.png">Video</li>
+                    <li><img src="event.png">Event</li>
+                    <li>Post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>top <img src="down-arrow.png"></span></p>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="sona.jpg">
+                    <div>
+                        <h1>Sonalika sahoo</h1>
+                        <small>Student at N.c. Autonumous College,Jajpur</small>
+                        <small>12 hours ago</small>
+                    </div>
+                </div>
+                <p>I have successfully completed the course in the basis of C++ offered by "Team innovetors"</p>
+                <p>#theinnovators</p>
+                <img src="WhatsApp Image 2024-04-10 at 09.46.13_bc292e35.jpg" width="100%">
+                <div class="post-reaction">
+                    <div>
+                        <img src="thumbsup.png">
+                        <img src="love.png">
+                        <img src="clap.png">
+                        <span class="like-user">Ananya samal75 others</span>
+                    </div>
+                    <div>
+                        <span>20 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="baby.jpg" class="post-activity-user">
+                        <img src="down-arrow.png" class="post-activity-arrow">
+                    </div>
+                    <div class="post-activity-link">
+                      <img src="like.png">
+                      <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="comment.png">
+                        <span>Comment</span>
+                      </div>
+                      <div class="post-activity-link">
+                        <img src="share.png">
+                        <span>Share</span>
+                      </div>
+                      <div class="post-activity-link">
+                        <img src="send.png">
+                        <span>Send</span>
+                      </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="disha.jpg">
+                    <div>
+                        <h1>Ananya Samal</h1>
+                        <small>Attended N.c Autonumous College</small>
+                        <small>23 hours ago</small>
+                    </div>
+                </div>
+                <p>Thrilled to receive my basic of web development complication certificate!it's been incrediable learning journey,and i'm proud to add this accomplishment to my perfessional profile. </p>
+                <p>#certification #professionaldevelopment #lifelonglearning</p>
+                <img src="post-image-1.png" width="100%">
+                <div class="post-reaction">
+                    <div>
+                        <img src="thumbsup.png">
+                        <img src="love.png">
+                        <img src="clap.png">
+                        <span class="like-user">Akankshya Mishra 95 others</span>
+                    </div>
+                    <div>
+                        <span>50 comments &middot; 4 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="baby.jpg" class="post-activity-user">
+                        <img src="down-arrow.png" class="post-activity-arrow">
+                    </div>
+                    <div class="post-activity-link">
+                      <img src="like.png">
+                      <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="comment.png">
+                        <span>Comment</span>
+                      </div>
+                      <div class="post-activity-link">
+                        <img src="share.png">
+                        <span>Share</span>
+                      </div>
+                      <div class="post-activity-link">
+                        <img src="send.png">
+                        <span>Send</span>
+                      </div>
+                </div>
+            
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="akan.jpg">
+                    <div>
+                        <h1>Akankshya Mishra</h1>
+                        <small>Attended Kendriya Vidyalaya(KV)</small>
+                        <small>1 day ago</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem omnis fugiat sequi praesentium illum quasi dolorum sint obcaecati earum itaque et ipsam reiciendis dolorem dignissimos recusandae, rerum vel exercitationem beatae.</p>
+                <img src="post-image-2.png" width="100%">
+                <div class="post-reaction">
+                    <div>
+                        <img src="thumbsup.png">
+                        <img src="love.png">
+                        <img src="clap.png">
+                        <span class="like-user">Ananya samal75 others</span>
+                    </div>
+                    <div>
+                        <span>48 comments &middot; 3 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="baby.jpg" class="post-activity-user">
+                        <img src="down-arrow.png" class="post-activity-arrow">
+                    </div>
+                    <div class="post-activity-link">
+                      <img src="like.png">
+                      <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="comment.png">
+                        <span>Comment</span>
+                      </div>
+                      <div class="post-activity-link">
+                        <img src="share.png">
+                        <span>Share</span>
+                      </div>
+                      <div class="post-activity-link">
+                        <img src="send.png">
+                        <span>Send</span>
+                      </div>
+                </div>
+            
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <div class="right-side">
+        <div class="sidebar-news">
+            <img src="more.png" class="info-icon">
+            <h3>Linkedin News </h3>
+            <a href="#">High demand for skilled manpower</a>
+            <span>1d ago &middot; 10,934 readers</span>
+
+            <a href="#">Carrers growing horizontally too</a>
+            <span>9h ago &middot; 34,555 readers</span>
+
+            <a href="#">Less work visa for us , more for UK</a>
+            <span>4h ago &middot; 8,678 readers</span>
+
+            <a href="#">More hiring = higher confidence?</a>
+            <span>18h ago &middot; 45,345 readers</span>
+
+            <a href="#">Gautam Adani is the world's third richest person </a>
+            <span>12h ago &middot; 5,924 readers</span>
+
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="sidebar-ad">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p>Prangyaparamita,Unlock your full potential with Linkedin Premium</p>
+            <div>
+                <img src="baby.jpg">
+                <img src="key1.jpg">
+            </div>
+            <b>See who's viewed your profile in the last 90 days</b>
+            <a href="#" class="ad-link">Try for free</a>
+        </div>
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy </a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+            <div class="copy-right">
+                <img src="logo.png">
+                <p>Linkedin corporation &#169;2024.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    let profilemenu = document.getElementById("profilemenu");
+
+    function togglemenu(){
+        profilemenu.classList.toggle("open-menu");
+    }
+
+
+
+</script>
+</body>
+</html>
